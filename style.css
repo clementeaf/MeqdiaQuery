@@ -1,0 +1,177 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+.clearfix{
+    float: none;
+    clear: both;
+}
+/* NAVEGADOR */
+.navegador{
+    width: 100%;
+    height: 130px;
+    background: fixed #102626;
+    display: flex;
+    justify-content:  space-around;
+}
+
+.marca{
+    padding: 40px;
+    align-items: center;
+}
+@media (max-width: 1024px) {
+    .marca{
+        display: none;
+    }
+}
+.marca h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    padding-right: 150px;
+    padding-top: 10px;
+}
+.elementos-navegador{
+    display: flex;
+    margin-right: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.elemento-home{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-right: 2px;
+}
+#home{
+    text-align: right;
+    text-decoration: none;
+    color: white;
+    padding: 40px;
+}
+#home:hover{
+    text-shadow: 0 0 5px white;
+}
+.elemento-about{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-right: 2px;
+
+}
+#about{
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    padding: 40px;
+}
+#about:hover{
+    padding: 40px;
+    text-shadow: 0 0 5px white;
+}
+.elemento-contact{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-right: 15px;
+
+}
+#contact{
+    text-decoration: none;
+    padding: 40px;
+    color: white;
+}
+#contact:hover{
+    text-shadow: 0 0 5px white;
+}
+/* FIN NAVEGADOR */
+
+/* SECTION */
+.imagen-media{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../imagenes/austrians.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+#perfil{
+    width: 25%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.seccion{
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+}
+@media (max-width: 1024px ) {
+    .seccion{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    #web{
+        margin-top: 20px;
+    }
+    #perfil{
+        display: flex;
+        margin-top: 15px;
+    }
+    #footer{
+        display: flex;
+        text-align: center;
+        font-size: 5px;
+    }
+}
+#articulo{
+    width: 45%;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-bottom: 3%;
+}
+#titulo{
+    font-size: 35px;
+    width: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#subtitulo{
+    font-size: 25px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#parrafo{
+    font-size: 15px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    height: 85px;
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#web{
+    font-size: 13px;
+    padding-bottom: 2%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#line{
+    margin-top: 30px;
+}
+
+#footer{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+}
+
+
